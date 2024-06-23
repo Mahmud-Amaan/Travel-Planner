@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layouts/MainLoyout/MainLayout";
 import Home from "../Pages/Home/Home";
 import RecommendationPage from "../Pages/RecommendationPage/RecommendationPage";
+import Marketplace from "./../Components/Marketplace/marketplace";
 
 export const router = createBrowserRouter([
     {
@@ -22,7 +23,7 @@ export const router = createBrowserRouter([
             },
             {
                 path : "/marketplace",
-                element : <div>Helo world</div>
+                element : <Marketplace />
             }
         ]
     }
